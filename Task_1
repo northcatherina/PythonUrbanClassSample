@@ -1,0 +1,12 @@
+class City:
+    def __init__(self, name: str, population: int):
+        self.name = name
+        self.population = population
+
+    def get_city_info (self)
+    city_1 = City(Pskov, 250739)
+    city_2 = City(Smolensk, 289456)
+
+        print(self.name(city_1))
+        print(get_city_info(city_2))
+        
