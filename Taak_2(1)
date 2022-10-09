@@ -1,0 +1,81 @@
+class Doors:
+    def __init__(self: height: float. width: float. opening_type: bool):
+    """
+    Создание и подготовка к работе объекта "Дверь"
+
+    :param height: высота двери
+    :param width: ширина двери
+    :param opening_type: тип открывания
+    """
+
+    self.height = height
+    self.width = width
+    self.opening_type = opening_type
+
+    def sample_height(self): -> float
+    """
+    Устанавливает высоту двери
+    :param doorway_height: высота дверного проема в чистоте
+    :return: sample_height: возвращает высоту элемента
+    """
+    ...
+
+    def sample_width(self): -> float
+    """
+    Устанавливает высоту двери
+    :param doorway_width: ширина дверного проема в чистоте
+    :return: sample_width: возвращает ширину элемента
+    """
+    ...
+
+    def right_opening(self): -> bool
+    """
+    Проверяет дверь с правым открыванием
+    :return: имеет ли дверь правое открывание или нет
+    """
+    ...
+
+if __right_opening__ == "__right_opening__":
+    door = Door(2100, 910, True)  # инициализация экземпляра класса
+
+
+
+class Parks:
+    def __int__(self: name: str, area: float, permeable_surfaces_area: float):
+    """
+    Создание и подготовка к работе объекта парк
+
+    :param name: название парка
+    :param area: площадь парка
+    :param permeable_surfaces_area: площадь проницаемых покрытий парка
+    """
+
+    self.name = name
+    self.area = area
+    self.permeable_surface_area = permeable_surfaces_area
+
+    def percentage_of_permeable_surfaces(self): -> float:
+    """
+    Показывает процент проницаемых поверхностей от общей площади парка
+
+    :return: процент проницаемых поверхностей
+    """
+    ...
+
+    def minimum_allowable_percentage_of_permeable_surfaces(self): -> bool:
+    """
+    Показывает минимально допустимый процент проницаемых поверхностей от общей площади парка
+
+    :return: минимально допустимый процент прницаемых поверхностей
+    """
+    ...
+
+    def increse_of_permeable_surfaces_area(self): -> float:
+    """
+    Увеличивает площадь проницаемых покрытий парка
+
+    :return: результат увеличения площади проницаемых покрытий парка
+    """
+    ...
+if __percentage_of_permeable_surfaces__ >= "__minimum_allowable_percentage_of_permeable_surfaces__":
+    park_1 = Parks("Кремлевский сад", 48.790, 32.564)  # инициализация экземпляра класса
